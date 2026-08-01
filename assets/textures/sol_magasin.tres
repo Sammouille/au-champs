@@ -1,0 +1,18 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://b4j6sm514xhqd"]
+
+[ext_resource type="Texture2D" uid="uid://ne60nxoeilti" path="res://assets/mesh/surfaces/lib_Tiles036_1K-JPG_Color.jpg" id="1_weton"]
+[ext_resource type="Texture2D" uid="uid://cxetascugu8sr" path="res://assets/mesh/surfaces/lib_Tiles036_1K-JPG_Roughness.png" id="2_njcvy"]
+[ext_resource type="Texture2D" uid="uid://535lld7gd570" path="res://assets/mesh/surfaces/lib_Tiles036_1K-JPG_NormalGL.jpg" id="3_xnk27"]
+
+[resource]
+resource_name = "Material.001"
+cull_mode = 2
+albedo_texture = ExtResource("1_weton")
+metallic_texture = ExtResource("2_njcvy")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_njcvy")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_xnk27")
+uv1_scale = Vector3(0.2, 0.2, 0.2)
+uv1_triplanar = true
